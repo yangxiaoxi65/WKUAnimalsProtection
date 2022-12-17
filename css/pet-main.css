@@ -1,0 +1,138 @@
+@CHARSET "UTF-8";
+
+body {/*background:#f7f7d0;*/}
+.content {
+	width:100%;
+	overflow:hidden;
+	
+}
+.content .cont-inner {
+	width:1000px;
+	margin:20px auto;
+	overflow:hidden;
+	height: 950px;
+}
+.content .cont-inner .cotinnerl {
+	background-color: #f7d0d0;
+	width:1000px;
+	display:block;
+	height:800px;
+	text-align: center;
+
+}
+.content .cont-inner .cotinnerr {
+	width:1000px;
+	height:800px;
+	text-align: center;
+	margin-left:25px;
+	background-color: #f7d0d0;
+	border-radius:10px;
+}
+.content .cont-inner .cotinnerl .innerl-title {
+	width:990px;
+	height: 40px;
+	border: solid;
+	border-width: 5px;
+	border-color: #3a280b;
+	border-radius:10px;
+	/*color: #3a280b;*/
+	background-color: #fda600;
+	/*color: #35230c;*/
+	text-align:center;
+	margin-top:20px;
+}
+/*.content .cont-inner .cotinnerr .innerr-title {
+	border: solid;
+	border-width: 5px;
+	border-color: #3a280b;
+	border-radius:10px;
+	background-color: #fda600;
+	color: #35230c;
+	text-align:center;
+	margin-top:20px;
+	height: 40px;
+	width: 965px;
+}*/
+.content .cont-inner .cotinnerr .innerr-title h2{
+	font-size: 25px;
+}
+.content .cont-inner .cotinnerl .innerl-title h2{
+	font-size: 25px;
+}
+.content .cont-inner .cotinnerl .innerl-main {
+	width: 450px;
+	margin-top: 30px;
+	overflow: hidden;
+	float:left;
+	margin-left: 40px;
+	position:relative;
+}
+.content .cont-inner .cotinnerl .innerl-bottom {
+	margin-left: 100px;
+	width:250px;
+	height:160px;
+	position:absolute;
+	background-color: rgba(183,233,196,0.7);
+	top:0px;
+	opacity:0;
+	transition: all 0.3s ease;
+	color: #35230c;;
+}
+.content .cont-inner .cotinnerl .innerl-bottom li {
+	margin:20px;
+}
+.content .cont-inner .cotinnerl .innerl-main img {
+	width:250px;
+	height:200px;
+}
+
+.content .cont-inner .cotinnerr .innerr-main {
+	border: solid;
+	border-width: 2.5px;
+	border-color: #3a280b;
+	border-radius:10px;
+	height:200px;
+	width:600px;
+	margin:20px auto;
+	text-align: center;
+	background-color: rgba(183, 233, 196, 0.7);
+}
+.content .cont-inner .cotinnerr .innerr-main img {
+	margin-top: 20px;
+	width:200px;
+	height:150px;
+	float:left;
+	border-top: 2.5px solid #3a280b;
+	border-right: 2.5px solid #3a280b;
+	border-bottom: 2.5px solid #3a280b;
+	border-radius:10px;
+}
+.content .cont-inner .cotinnerr .innerr-main ul {
+	float:left;
+	margin:50px 10px;
+	color: #35230c;
+}
+.cot1-btn {
+	width: 1000px;
+	text-align: center;
+}
+.cot2-btn {
+	width: 1000px;
+	text-align: center;
+}
+.contr-inner {
+	height: 740px;
+}
+
+.innerl-bottom a:visited {
+	color: #35230c;
+}
+.innerl-col {
+	overflow: hidden;
+	background-color: #f7d0d0;
+    border-radius: 10px;
+    height: 732px;
+}
+.page {
+	overflow: hidden;
+}
